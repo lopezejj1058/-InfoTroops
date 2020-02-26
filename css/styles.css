@@ -36,7 +36,7 @@ ul{
 
 }
 
-.dark{
+.dark {
     padding: 15px;
     background: #35424a;
     color: #ffffff;
@@ -46,7 +46,7 @@ ul{
 
 }
 
-.dark H3{
+.dark h3{
     text-align: center;
 }
 /* header */
@@ -91,7 +91,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-    color: #cccccc;
+    color: white;
     font-weight: bold;
 }
 
@@ -196,8 +196,8 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 
 article#main-col{
     float: left;
-    width: 65%;
-    height: 700px;
+    width: 60%;
+    height: 800px;
 }
 
 /* services */
@@ -206,15 +206,17 @@ ul#services li{
     list-style: none;
     padding: 20px;
     border: #cccccc;
+    border-radius: 15px;
     margin-bottom: 5px;
-    background: #e6e6e6;
+    background:#35424a;
 }
 
 footer{
     padding: 10px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
+    background-color: #35424a;
+    border-top:#e8491d solid 3px;
     text-align: center;
 }
 
@@ -251,3 +253,29 @@ footer{
     }
 }
 
+    a:link {
+        color: green; 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color:#e8491d;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color:white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      p{color:white;}
+.service-title{color:white;
+font-size: x-large;}
