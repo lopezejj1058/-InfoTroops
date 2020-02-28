@@ -1,0 +1,133 @@
+body{
+    font: 15px/1.5 Ariel, Helvetica,sanz-serfi;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* global */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;}
+
+/* header */
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* ???? */
+header li, h1{
+    display: inline;
+    padding: 0 40px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* newsletter
+#newsletter{
+    padding: 10px;
+    color: #ffffff;
+    background: #35424a;
+
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+#container h2{
+    text-size-adjust: 80px;
+} */
+
+
+
+
+/*main-col */
+
+#main-col{
+    float: left;
+    width: 60%;
+    height: 800px;
+    
+}
+
+/* services */
+
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background:#35424a;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    border-top:#e8491d solid 3px;
+    text-align: center;
+}
+
+/* media queries */
+@media(max-width: 768px)
+
+{#branding,header nav,header nav li,#newsletter nav,#newsletter form,#boxes .box,article#main-col,aside#sidebar{float:none;text-align:center;width:100%;}}
+
+
+/* Link styles */
+a:link {color: green;background-color:transparent;text-decoration:none;}
+a:visited{color:#e8491d;background-color: transparent;text-decoration:none;}
+a:hover {color:white;background-color:transparent;text-decoration:none;}
+a:active{color: yellow;background-color: transparent;text-decoration:none;}
+p{color:white;}
+.service-title{color:white;font-size: x-large;}
+
+
+
+/* article */
+#img-flag{width:35%;height:100%;position: fixed;left:1000px}
