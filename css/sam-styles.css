@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Ariel, Helvetica,sanz-serfi;
     padding:0;
     margin:0;
-    background-color:#f4f4f4;
+    background-color:#ffffff;
 }
 
 /* global */
@@ -15,45 +15,43 @@ body{
 /* header */
 
 header{
-    background: #35424a;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    background: black;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 50px;
+    border-bottom: #E8491D 3px solid;
 }
-
 header a{
+    color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
+    
 }
-
-/* ???? */
 header li, h1{
     display: inline;
-    padding: 0 40px 0 20px;
+    padding: 0 20px 0 20px;
+    font-size: 30px;
+    margin: auto;
 }
-
 header #branding{
     float: left;
+    margin: 0;
+    padding-top:15px;
 }
-
 header nav{
     float: right;
-    margin-top: 5px;}
-
+    margin: auto;
+}
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #E8491D;
     font-weight: bold;
 }
-
 header a:hover{
-    color: white;
+    color: #ffffff;
     font-weight: bold;
 }
-
-
-
 /* newsletter
 #newsletter{
     padding: 10px;
@@ -89,7 +87,11 @@ header a:hover{
 #main-col{
     float: left;
     width: 60%;
-    height: 800px;
+    height: 840px;
+    padding:0px;
+    margin-top:-40px;
+    border-radius:15px;
+
     
 }
 
@@ -97,18 +99,18 @@ header a:hover{
 
 #services li{
     list-style: none;
-    padding: 20px;
+    padding: 10px;
     border: #cccccc;
     border-radius: 15px;
-    margin-bottom: 5px;
-    background:#35424a;
+    margin-bottom: 10px;
+    background:black;
 }
 
 footer{
     padding: 10px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #35424a;
+    background-color:black;
     border-top:#e8491d solid 3px;
     text-align: center;
 }
@@ -120,7 +122,7 @@ footer{
 
 
 /* Link styles */
-a:link {color: green;background-color:transparent;text-decoration:none;}
+a:link {color: #e8491d;background-color:transparent;text-decoration:none;}
 a:visited{color:#e8491d;background-color: transparent;text-decoration:none;}
 a:hover {color:white;background-color:transparent;text-decoration:none;}
 a:active{color: yellow;background-color: transparent;text-decoration:none;}
@@ -130,4 +132,4 @@ p{color:white;}
 
 
 /* article */
-#img-flag{width:35%;height:100%;position: fixed;left:1000px}
+#img-flag{width:35%;height:85%;position: absolute;left:1050px;margin-top:20px;}
